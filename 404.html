@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.67">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>个人博客-vuepress</title><meta name="description" content="这是我的第一个 VuePress 站点">
+    <link rel="preload" href="/learn-vuepress/assets/style-5c736216.css" as="style"><link rel="stylesheet" href="/learn-vuepress/assets/style-5c736216.css">
+    <link rel="modulepreload" href="/learn-vuepress/assets/app-c08140f1.js"><link rel="modulepreload" href="/learn-vuepress/assets/404.html-f6154d79.js"><link rel="modulepreload" href="/learn-vuepress/assets/404.html-f9875e7b.js"><link rel="prefetch" href="/learn-vuepress/assets/index.html-b68370ce.js" as="script"><link rel="prefetch" href="/learn-vuepress/assets/1.html-5a3c3233.js" as="script"><link rel="prefetch" href="/learn-vuepress/assets/alibaba_front_end_specifications.html-299a2d99.js" as="script"><link rel="prefetch" href="/learn-vuepress/assets/index.html-5c4781c6.js" as="script"><link rel="prefetch" href="/learn-vuepress/assets/1.html-cb68304a.js" as="script"><link rel="prefetch" href="/learn-vuepress/assets/alibaba_front_end_specifications.html-be1d3690.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>That&#39;s a Four-Oh-Four.</blockquote><a href="/learn-vuepress/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/learn-vuepress/assets/app-c08140f1.js" defer></script>
+  </body>
+</html>
